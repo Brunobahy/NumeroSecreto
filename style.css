@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Glitch&display=swap');
+
+:root {
+    --font-family: 'Anton', sans-serif;
+    --font-borrada: 'Rubik Glitch', cursive;
+    --bg-color: #400D51;
+    --primary-color: #31E1F7;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 6em;
+    filter: drop-shadow(1px 1px 10px #D800A6);
+}
+
+h2 {
+    font-size: 7em;
+    animation: animaCor .5s linear infinite;
+}
+
+h3 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: solid 2px #D800A6;
+    display: inline-block;
+    font-size: 4em;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 1px 1px 10px #FF7777;
+    animation: linear 1s neon infinite;
+}
+
+button{
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 3em;
+    font-family: var(--font-family);
+    border: solid 2px #D800A6;
+    border-radius: 20px;
+    margin-top: 1em;
+    animation: linear 1s neon infinite;
+    cursor: pointer;
+}
+
+
+@keyframes neon {
+
+    0% {
+        box-shadow: 0px 5px 10px #FF7777, -5px 0px 10px #D800A6, 0px -5px 10px #31E1F7, 5px 0px 10px #F0FF42;
+
+    }
+
+    12.5% {
+        box-shadow: 5px 5px 10px #FF7777, -5px 5px 10px #D800A6, -5px -5px 10px #31E1F7, 5px -5px 10px #F0FF42;
+    }
+
+    25% {
+        box-shadow: 5px 0px 10px #FF7777, 0px 5px 10px #D800A6, -5px 0px 10px #31E1F7, 0px -5px 10px #F0FF42;
+    }
+
+    37.5% {
+        box-shadow: 5px -5px 10px #FF7777, 5px 5px 10px #D800A6, -5px 5px 10px #31E1F7, -5px -5px 10px #F0FF42;
+    }
+
+    50% {
+        box-shadow: 0px -5px 10px #FF7777, 5px 0px 10px #D800A6, 0px 5px 10px #31E1F7, -5px 0px 10px #F0FF42;
+    }
+
+    62.5% {
+        box-shadow: -5px -5px 10px #FF7777, 5px -5px 10px #D800A6, 5px 5px 10px #31E1F7, -5px 5px 10px #F0FF42;
+    }
+
+    75% {
+        box-shadow: -5px 0px 10px #FF7777, 0px -5px 10px #D800A6, 5px 0px 10px #31E1F7, 0px 5px 10px #F0FF42;
+    }
+
+    87.5% {
+        box-shadow: -5px 5px 10px #FF7777, -5px -5px 10px #D800A6, 5px -5px 10px #31E1F7, 5px 5px 10px #F0FF42;
+    }
+
+    100% {
+        box-shadow: 0px 5px 10px #FF7777, -5px 0px 10px #D800A6, 0px -5px 10px #31E1F7, 5px 0px 10px #F0FF42;
+    }
+
+}
+
+@keyframes animaCor {
+
+    0% {
+        color: var(--primary-color);
+    }
+
+    25% {
+        color: #D800A6;
+    }
+
+    50% {
+        color: #31E1F7;
+    }
+
+    75% {
+        color: #F0FF42;
+    }
+
+    100% {
+        color: red;
+    }
+}
+

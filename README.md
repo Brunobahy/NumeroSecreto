@@ -14,4 +14,4 @@ Jogo realizado no curso javaScript: validações e reconhecimento de voz, da Alu
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Neste projeto foi utilizado a API Web Speech, onde criamos um jogo de adivinhar o número.

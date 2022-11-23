@@ -9,7 +9,8 @@ Jogo realizado no curso javaScript: validações e reconhecimento de voz, da Alu
 | :fire: Desafio     | https://cursos.alura.com.br/course/javascript-validacoes-reconhecimento-voz
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![Captura de tela 2022-11-23 101816](https://user-images.githubusercontent.com/110056385/203556660-af87792d-91ad-4c64-bc58-4ccfbb361cc1.png)
+
 
 ## Detalhes do projeto
 
